@@ -27,11 +27,16 @@ let canvas = Canvas(width: 400, height: 600)
 // Begin your solution here...
 
 // REMINDER: here's how to create a square with a fill
-canvas.fillColor = Color(hue: 56, saturation: 7, brightness: 56, alpha: 100)
-canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 50, height: 50)
+canvas.fillColor = Color(hue: 191, saturation: 100, brightness: 85, alpha: 100)
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 400, height: 600)
 
 // REMINDER: here's how to create text in a certain location
-canvas.drawText(message: "blur", size: 96, x: 100, y: 150, kerning: 0)
+canvas.drawText(message: "blur", size: 96, x: 100, y: y, kerning: 0)
+
+for y in stride(from: 400, through:0 , by: 50) {
+    
+}
+
 // HINT: You can use the kerning property to change the distance between letters
 //       Try adjusting the value to positive or negative values. What happens?
 
